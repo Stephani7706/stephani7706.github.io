@@ -61,20 +61,13 @@
     height: 70px;
   }
 
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .content {
-    flex: 1 0 auto;
-  }
-
-  .footer {
+  footer {
+    width: 100%;
+    height: 5%;
     flex: 0 0 auto;
     background: rgba(214, 184, 248);
     color: rgba(29, 32, 32);
+    position: relative;
   }
 
   a {
@@ -90,14 +83,19 @@
 
   table {
     width: 100%;
-    padding-top: 2%;
-    padding-right: 15%;
-    padding-left: 15%;
+
   }
 
-  .col1 {
-
+  td {
     width: 10%;
+    padding-top: 1%;
+    padding-right: 1%;
+  }
+
+  .imagine1 {
+
+    width: 170px;
+    float: right;
 
   }
 
@@ -109,8 +107,20 @@
     font-family: fantasy;
     text-align: center;
     letter-spacing: 10px;
+
   }
-  .text2 {
+
+  .text_instagram {
+    font-weight: bold;
+    font-size: 300%;
+    color: white;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border: 3px solid white;
+    text-align: center;
+  }
+
+  .text_vk_twitter {
     font-weight: bold;
     font-size: 300%;
     color: white;
@@ -127,8 +137,9 @@
     text-decoration: none;
     letter-spacing: 1px;
     font-family: monospace;
-    border: 1px solid white;
+    border: 3px solid white;
     text-align: center;
+    float: right;
 
   }
 
@@ -137,8 +148,9 @@
     color: white;
     letter-spacing: 1px;
     font-family: monospace;
-    border: 1px solid white;
+    border: 3px solid white;
     text-align: center;
+    float: right;
 
   }
 
@@ -147,187 +159,173 @@
     color: white;
     letter-spacing: 1px;
     font-family: monospace;
-    border: 1px solid white;
-    text-align: center;
-
-  }
-
-  .text6 {
-    font-weight: bold;
-    font-size: 300%;
-    color: white;
-    letter-spacing: 1px;
-    font-family: monospace;
     border: 3px solid white;
     text-align: center;
-    
-
+    float: right;
   }
+
+
 
   .text7 {
     font-size: 200%;
     color: white;
     letter-spacing: 1px;
     font-family: monospace;
-    border: 1px solid white;
+    border: 3px solid white;
     text-align: center;
+    float: right;
 
   }
 
   .text8 {
     font-weight: bold;
-    font-size: 300%;
+    font-size: 200%;
     color: white;
     font-family: monospace;
     border: 3px solid white;
     text-align: center;
-
+    float: right;
   }
 
   .text9 {
-    font-size: 150%;
+    font-size: 200%;
     color: white;
     letter-spacing: 1px;
     font-family: monospace;
     top: 145%;
     left: 52%;
-    border: 1px solid white;
+    border: 3px solid white;
     text-align: center;
-
-  }
-
-  .imagine1 {
-
-    width: 170px;
     float: right;
-
-  }
-
-  .imagine2 {
-
-    width: 170px;
-    float: left;
-
   }
 </style>
 
 <nav class="top-menu">
   <ul class="menu-main">
-    <li class="left-item"><a href="about me.html">ОБО МНЕ</a></li>
+    <li class="left-item"><a href="about_me.html">ОБО МНЕ</a></li>
     <li class="left-item"><a href="portfolio.html">ПОРТФОЛИО</a></li>
     <li class="right-item"><a href="contacts.html">КОНТАКТЫ И ССЫЛКИ</a></li>
-    <li class="right-item"><a href="my thoughts.html">МОИ МЫСЛИШКИ</a></li>
-  </ul>
-  <a class="navbar-logo" href="index.html"><img class="logo" src="img\sign.png"></a>
+    <li class="right-item"><a href="my_thoughts.html">МОИ МЫСЛИШКИ</a></li>
+    <a class="navbar-logo" href="index.html"><img class="logo" src="img\sign.png"></a>
 </nav>
 
 <h1 class="text1">
   Контактики и ссылочки
 </h1>
+
 <table>
+
+  <p class="text_instagram">INSTAGRAM</p>
+
   <tr>
-    <td width="10%"> </td>
-    <td colspan="5" width="10%"></td>
-      <p class="text2">INSTAGRAM</p>
+    <td>
+      &nbsp;
     </td>
-    <td width="10%"> </td>
-  </tr>
-  <tr>
-    <td colspan="7" width="5%"> &nbsp;</td>
-  </tr>
-  <tr>
-    <td width="10%"> </td>
-    <td width="10%">
+    <td>
       <img class="imagine1" src="img\inst.jpg">
     </td>
-    <td width="10%"> </td>
-    <td width="10%">
+    <td>
+      &nbsp;
+    </td>
+    <td>
       <img class="imagine1" src="img\inst2.jpg">
     </td>
-    <td width="10%"> </td>
-    <td width="10%">
+    <td>
+      &nbsp;
+    </td>
+    <td>
       <img class="imagine1" src="img\inst3.jpg">
     </td>
-    <td width="10%"> </td>
-  </tr>
-  <tr>
-    <td colspan="7" width="5%"> &nbsp;</td>
-  </tr>
-
-
-  <tr>
-    <td width="10%"> </td>
-    <td width="10%">
-      <p class="text3"><a href="https://www.instagram.com/stefa7706/" target="blank">@stefa7706</a></p>
+    <td>
+      &nbsp;
     </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <p class="text4"><a href="https://www.instagram.com/ststefaly/" target="blank">@ststefaly</a></p>
-    </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <p class="text5"><a href="https://www.instagram.com/ph.stephy/" target="blank">@ph.stephy</a></p>
-    </td>
-    <td width="10%"> </td>
-  </tr>
 
-  <tr>
-    <td colspan="7" width="5%"> &nbsp;</td>
   </tr>
 </table>
 <table>
   <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <p class="text3"><a href="https://www.instagram.com/stefa7706/" target="blank">@stefa7706</a></p>
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <p class="text4"><a href="https://www.instagram.com/ststefaly/" target="blank">@ststefaly</a></p>
+    </td>
+    <td>
+      &nbsp;
+    </td>
 
-    <td width="10%"> </td>
-    <td width="10%"></td>
-  
-    <p class="text6">VK        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      TWITTER</p>
-   
-
-  </tr>
-
-  <tr>
-    <td colspan="7" width="5%"> &nbsp;</td>
-  </tr>
-  <tr>
-    <td width="10%"> </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <img class="imagine1" src="img\vk.jpg">
+    <td>
+      <p class="text5"><a href="https://www.instagram.com/ph.stephy/" target="blank">@ph.stephy</a></p>
     </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <img class="imagine1" src="img\twttr.jpg">
+    <td>
+      &nbsp;
     </td>
-    <td width="10%"> </td>
-    <td width="10%"> </td>
-  </tr>
-  <tr>
-    <td colspan="7" width="5%"> &nbsp;</td>
-  </tr>
-  <tr>
-    <td width="10%"> </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <p class="text7"><a href="https://m.vk.com/stefa7706" target="blank">@stefa7706</a></p>
-    </td>
-    <td width="10%"> </td>
-    <td width="10%">
-      <p class="text9"><a href="https://mobile.twitter.com/littlesweetsun" target="blank">@LittleSweetSun</a></p>
-    </td>
-    <td width="10%"> </td>
-    <td width="10%"> </td>
   </tr>
 </table>
-<div class="wrapper">
+<p class="text_vk_twitter">VK &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TWITTER</p>
+<table>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <img class="imagine1" src="img\vk.jpg">
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <img class="imagine1" src="img\twttr.jpg">
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      &nbsp;
+    </td>
 
-  <div class="content"></div>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <p class="text7"><a href="https://m.vk.com/stefa7706" target="blank">@stefa7706</a></p>
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      <p class="text9"><a href="https://mobile.twitter.com/littlesweetsun" target="blank">@LittleSweetSun</a></p>
+    </td>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+      &nbsp;
+    </td>
+  </tr>
+</table>
 
-  <div class="footer">
-    <p>&copy; Патлай Стефания </p>
-    </footer>
-  </div>
 
-</div>
+<footer>
+  <p>&copy; Патлай Стефания</p>
+</footer>
+
+</html>
 
 </html>
