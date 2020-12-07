@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: rgba(214, 184, 248);
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-menu {
+    position: relative;
+    background: rgba(214, 184, 248);
+  }
+
+  .menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left-item {
+    float: left;
+  }
+
+  .right-item {
+    float: right;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 80px;
+    padding: 0 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(29, 32, 32);
+    text-decoration: none;
+  }
+
+  footer {
+    width: 100%;
+    height: 30%;
+    flex: 0 0 auto;
+    background: rgba(214, 184, 248);
+    color: rgba(29, 32, 32);
+    position: relative;
+  }
+  .f1 {
+    width: 100px;}
+  .text0 {
+    font-size: 550%;
+    font-weight: bold;
+    color: white;
+font-family: 'Manrope', sans-serif;
+    text-align: center;
+    letter-spacing: 35px;
+  }
+  table {
+    width: 100%;
+    color: white;
+  }
+
+  td {
+
+    padding: 5px;
+
+  }
+
+  tr {
+
+    padding: 1px;
+  }
+
+  .text1 {
+    font-size: 150%;
+    color: white;
+    letter-spacing: 1px;
+font-family: 'Manrope', sans-serif;
+    padding: 10%;
+
+    left: 7%;
+  }
+
+  .imagine1 {
+
+    width: 500
+  }
+
+  .text2 {
+    font-size: 150%;
+    color: white;
+    letter-spacing: 1px;
+font-family: 'Manrope', sans-serif;
+    padding: 10%;
+  }
+
+  .imagine2 {
+    padding-left: 15%;
+    width: 500;
+  }
+  audio {
+    padding-left: 13%;
+  }
