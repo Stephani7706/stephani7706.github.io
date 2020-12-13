@@ -59,8 +59,6 @@ html {
     height: 70px;
   }
 
-
-
   footer {
     width: 100%;
     height: 30%;
@@ -70,54 +68,47 @@ html {
     position: relative;
   }
 
-  a {
+  .a1 {
     color: white;
     text-decoration: none;
   }
 
-  a:hover {
+  .a1:hover {
     color: rgba(214, 184, 248);
+    text-decoration: none;
+  }
+
+  .a2 {
+    color: white;
+    text-decoration: none;
+  }
+
+  .a2:hover {
+    color: rgb(29, 32, 32);
     text-decoration: none;
   }
 
   table {
     width: 100%;
     padding: 1%;
-
   }
-  .text0 {
+
+  .text-header{
     font-size: 550%;
-    font-weight: lighter;
+    font-weight: bold;
     color: white;
-font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
     letter-spacing: 35px;
   }
-  .imagine1 {
+  
+  .imagine-1 {
     width: 300px;
-    
   }
 
-  .text1 {
+  .text-1 {
     color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-
-  }
-
-  .imagine2 {
-    width: 300px;
-
-  }
-
-  .text2 {
-    color: white;
-font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: lighter;
     letter-spacing: 5px;
     font-size: 21px;
@@ -126,185 +117,66 @@ font-family: 'Manrope', sans-serif;
     text-align: center;
   }
 
-  .imagine3 {
+  .imagine-2 {
+    width: 300px;
+  }
+
+  .imagine-3 {
     width: 300px;
     float: center;
   }
 
-  .text3 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-
-  }
-
-  .imagine4 {
+  .imagine-4 {
     width: 300px;
     float: center;
   }
 
-  .text4 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-
-  }
-
-  .imagine5 {
+  .imagine-5 {
     width: 300px;
     float: center;
   }
 
-  .text5 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine6 {
+  .imagine-6 {
     width: 300px;
     float: center;
   }
 
-  .text6 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine7 {
+  .imagine-7 {
     width: 300px;
     float: center;
   }
 
-  .text7 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine8 {
+  .imagine-8 {
     width: 300px;
     float: center;
   }
 
-  .text8 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine9 {
+  .imagine-9 {
     width: 300px;
     float: center;
   }
 
-  .text9 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine10 {
+  .imagine-10 {
     width: 300px;
     float: center;
   }
 
-  .text10 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine11 {
+  .imagine-11 {
     width: 300px;
     float: center;
   }
 
-  .text11 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine12 {
+  .imagine-12 {
     width: 300px;
     float: center;
   }
 
-  .text12 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine13 {
+  .imagine-13 {
     width: 300px;
     float: center;
   }
 
-  .text13 {
-    color: white;
-font-family: 'Manrope', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 5px;
-    font-size: 21px;
-    padding: 10px;
-    width: 250x;
-    text-align: center;
-  }
-
-  .imagine14 {
+  .imagine-14 {
     width: 300px;
     float: center;
   }
@@ -319,7 +191,7 @@ font-family: 'Manrope', sans-serif;
     width: 250x;
     text-align: center;
   }
-  .comm1 {
+  .comment-1 {
     font-size: 10;
     color: white;
     letter-spacing: 1px;
@@ -346,16 +218,65 @@ font-family: 'Manrope', sans-serif;
           transform: scale(1.3);
         }
       }
-      .td1 {
+      .td-1 {
         vertical-align: top;
         width: 10%;
       }
-      .td2 {
+      .td-2 {
         vertical-align: center;
         width: 10%;
       }
-      .td3 {
-        vertical-align: bottom;
-        width: 10%;
-      }
+
+      #Footer {
+        background-color:  rgba(214, 184, 248);
+        color: white;
+        padding-top: 30px;
+    }
+    
+    #Footer .footer-copyright {
+        background-color:  rgba(214, 184, 248);
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    
+    #Footer .row {
+        margin-bottom: 20px;
+    }
+    
+    #Footer h5 {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        margin-top: 50px;
+        font-family: sans-serif;
+    }
+    
+    #Footer h2 a{
+        font-size: 50px;
+        text-align: center;
+       
+    }
+    
+    #Footer a {
+        color:  white;
+        text-decoration: none;
+    }
+    #Footer a:hover {
+      color:  rgb(29, 32, 32);
+      text-decoration: none;
+    }
+    
+    
+    .content{
+       flex: 1 0 auto;
+       -webkit-flex: 1 0 auto;
+       min-height: 200px;
+    }
+    
+    #Footer{
+       flex: 0 0 auto;
+       -webkit-flex: 0 0 auto;
+    }
+
 

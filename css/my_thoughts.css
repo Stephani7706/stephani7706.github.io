@@ -59,15 +59,26 @@ html {
     height: 70px;
   }
 
-  a {
+  .a1 {
     color: white;
     text-decoration: none;
   }
 
-  a:hover {
+  .a1:hover {
+    color: rgba(29, 32, 32);
+    text-decoration: none;
+  }
+
+  .a2 {
+    color: white;
+    text-decoration: none;
+  }
+
+  .a2:hover {
     color: rgb(29, 32, 32);
     text-decoration: none;
   }
+
 
   footer {
     width: 100%;
@@ -77,13 +88,12 @@ html {
     color: rgba(29, 32, 32);
     position: relative;
   }
-  .f1 {
-    width: 100px;}
-  .text0 {
+  
+  .text-header{
     font-size: 550%;
     font-weight: bold;
     color: white;
-font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
     letter-spacing: 35px;
   }
@@ -93,13 +103,10 @@ font-family: 'Manrope', sans-serif;
   }
 
   td {
-
     padding: 5px;
-
   }
 
   tr {
-
     padding: 1px;
   }
 
@@ -107,14 +114,12 @@ font-family: 'Manrope', sans-serif;
     font-size: 150%;
     color: white;
     letter-spacing: 1px;
-font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     padding: 10%;
-
     left: 7%;
   }
 
   .imagine1 {
-
     width: 500
   }
 
@@ -122,7 +127,7 @@ font-family: 'Manrope', sans-serif;
     font-size: 150%;
     color: white;
     letter-spacing: 1px;
-font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
     padding: 10%;
   }
 
@@ -133,3 +138,55 @@ font-family: 'Manrope', sans-serif;
   audio {
     padding-left: 13%;
   }
+
+  #footer {
+    background-color:  rgba(214, 184, 248);
+    color: white;
+    padding-top: 30px;
+}
+
+#footer .footer-copyright {
+    background-color:  rgba(214, 184, 248);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#footer .row {
+    margin-bottom: 20px;
+}
+
+#footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+#footer h2 a{
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+#footer a {
+    color:  white;
+    text-decoration: none;
+}
+#footer a:hover {
+  color:  rgb(29, 32, 32);
+  text-decoration: none;
+}
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#footer{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

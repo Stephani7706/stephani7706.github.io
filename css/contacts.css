@@ -70,16 +70,25 @@ html {
   .f1 {
     width: 100px;}
     
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: rgba(214, 184, 248);
-    text-decoration: none;
-  }
-
+    .a1 {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .a1:hover {
+      color: rgba(214, 184, 248);
+      text-decoration: none;
+    }
+  
+    .a2 {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .a2:hover {
+      color: rgb(29, 32, 32);
+      text-decoration: none;
+    }
 
   table {
     width: 100%;
@@ -91,25 +100,24 @@ html {
     padding-right: 1%;
   }
 
-  .imagine1 {
+  .imagine-1 {
 
     width: 120px;
 
   }
 
-  .text1 {
+  .text-header {
     font-variant-caps: all-petite-caps;
     font-size: 550%;
     font-weight: bold;
     color: white;
     font-family: 'Manrope', sans-serif;
-
     text-align: center;
     letter-spacing: 10px;
 
   }
 
-  .text_instagram {
+  .text-header-name {
     font-weight: bold;
     font-size: 200%;
     color: white;
@@ -119,27 +127,7 @@ html {
 
   }
 
-  .text_vk {
-    font-weight: bold;
-    font-size: 200%;
-    color: white;
-    letter-spacing: 1px;
-    font-family: monospace;
-    padding-left: 15%;
-
-  }
-
-  .text_twitter {
-    font-weight: bold;
-    font-size: 200%;
-    color: white;
-    letter-spacing: 1px;
-    font-family: monospace;
-    padding-left: 15%;
-
-  }
-
-  .text3 {
+  .text-inst1 {
     font-size: 200%;
     color: white;
     text-decoration: none;
@@ -147,7 +135,7 @@ html {
     font-family: monospace;
   }
 
-  .text4 {
+  .text-inst2 {
     font-size: 200%;
     color: white;
     letter-spacing: 1px;
@@ -157,7 +145,7 @@ html {
 
   }
 
-  .text5 {
+  .text-inst3 {
     font-size: 200%;
     color: white;
     letter-spacing: 1px;
@@ -168,7 +156,7 @@ html {
 
 
 
-  .text7 {
+  .text-vk {
     font-size: 200%;
     color: white;
     letter-spacing: 1px;
@@ -178,7 +166,7 @@ html {
 
   }
 
-  .text8 {
+  .text-twitter {
     font-weight: bold;
     font-size: 200%;
     color: white;
@@ -187,17 +175,7 @@ html {
     float: right;
   }
 
-  .text9 {
-    font-size: 200%;
-    color: white;
-    letter-spacing: 1px;
-    font-family: monospace;
-    top: 145%;
-    left: 52%;
-    text-align: center;
-    float: right;
-  }
-  .text0 {
+  .text-infotmation {
     font-size: 20;
     color: white;
     letter-spacing: 1px;
@@ -226,11 +204,56 @@ html {
         vertical-align: top;
         width: 10%;
       }
-      .td2 {
-        vertical-align: center;
-        width: 10%;
-      }
-      .td3 {
-        vertical-align: bottom;
-        width: 10%;
-      }
+
+      
+  #footer {
+    background-color:  rgba(214, 184, 248);
+    color: white;
+    padding-top: 30px;
+}
+
+#footer .footer-copyright {
+    background-color:  rgba(214, 184, 248);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#footer .row {
+    margin-bottom: 20px;
+}
+
+#footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+#footer h2 a{
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+#footer a {
+    color:  white;
+    text-decoration: none;
+}
+#footer a:hover {
+  color:  rgb(29, 32, 32);
+  text-decoration: none;
+}
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#footer{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
