@@ -100,18 +100,16 @@ html {
 
   table {
     width: 100%;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
-  .column1 {
-    width: 40%;
-  }
+
 
   .text-1 {
-    font-size: 100%;
+    font-size: 110%;
     color: white;
-    letter-spacing: auto;
+    letter-spacing: 1px;
     font-family: 'Manrope', sans-serif;
   }
 
@@ -121,9 +119,9 @@ html {
   }
 
   .text-2 {
-    font-size: 100%;
+    font-size: 110%;
     color: white;
-    letter-spacing: auto;
+    letter-spacing: 1px;
     font-family: 'Manrope', sans-serif;
   }
 
