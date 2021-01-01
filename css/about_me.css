@@ -59,15 +59,6 @@ html {
     height: 70px;
   }
 
-  footer {
-    width: 100%;
-    height: 30%;
-    flex: 0 0 auto;
-    background: rgba(214, 184, 248);
-    color: rgba(29, 32, 32);
-    position: relative;
-  }
-
   .a1 {
     color: white;
     text-decoration: none;
@@ -104,8 +95,6 @@ html {
     padding-right: 4%;
   }
 
-
-
   .text-1 {
     font-size: 110%;
     color: white;
@@ -132,7 +121,7 @@ html {
 
   #footer {
     background-color:  rgba(214, 184, 248);
-    color: rgb(29, 32, 32);
+    color: rgb(255, 255, 255);
     padding-top: 30px;
 }
 
@@ -149,7 +138,7 @@ html {
 
 #footer h5 {
     font-size: 18px;
-    color: rgb(29, 32, 32);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 50px;
     font-family: sans-serif;
